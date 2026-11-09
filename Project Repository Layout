@@ -1,0 +1,28 @@
+├── .gitignore
+├── requirements.txt
+├── README.md
+├── generate_data.py
+├── mock_llm.py
+├── data/
+│   ├── raw/
+│   ├── clean/
+│   ├── policies/
+│   └── instamart.db
+├── sql/
+│   └── queries.sql
+├── outputs/
+│   ├── customer_segments.csv
+│   ├── lapse_model.joblib
+│   ├── retention_list.csv
+│   ├── triage_results.csv
+│   ├── triage_budget_demo.csv
+│   ├── agent_runs.jsonl
+│   └── refund_ledger.jsonl
+├── state/
+├── src/
+│   ├── part_a_pipeline.py
+│   ├── part_a_validate.py
+│   ├── part_b_pipeline.py
+│   ├── part_c_pipeline.py
+│   └── part_d_pipeline.py
+└── run_all.py
